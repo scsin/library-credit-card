@@ -1,3 +1,7 @@
 # Node Modules
 node_modules
 
+# Testes
+index_1.js
+index_2.js
+testee.js

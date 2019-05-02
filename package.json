@@ -1,14 +1,16 @@
 {
-  "name": "ex_eslint",
+  "name": "credit-card-validator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Biblioteca para validação de cartão de crédito",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
-  "author": "",
+  "author": "Sara Sin",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^5.16.0"
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4"
   }
 }
