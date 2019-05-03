@@ -1,18 +1,18 @@
 let chai = require("chai");
 let expect = chai.expect;
-let testee = require("../lib/testee");
+let index = require("../lib/index");
 
 describe("credit card lib", () => {
     describe("numbersLength", () => {
         // it("length11", () => {
         //     expect(testee.x("12345678912")).to.equal(11);
         // });
-        it("length"), () => {
-            expect(testee.x("484735298926").to.have.lengthOf.within(12, 19));
-        }
-        // it("lengthBelow"), () => {
-        //     expect(testee.x("484735298926").to.have.lengthOf.at.most(19));
-        // }
+        // it("length", () => {
+        //     expect(index.cardValidator("4847352989263094")).to.have.lengthOf.within(12, 19);
+        // });
+        it("true", () => {
+            expect(index.cardValidator("4847352989263094")).to.equal(true);
+        });
         // it("length12", () => {
         //     expect(testee.x("484735298926")).to.equal(12);
         // });

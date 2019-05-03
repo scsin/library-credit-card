@@ -1,7 +1,7 @@
 {
   "name": "credit-card-validator",
   "version": "1.0.0",
-  "description": "Biblioteca para validação de cartão de crédito",
+  "description": "Biblioteca para validação de cartões de crédito",
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha"
