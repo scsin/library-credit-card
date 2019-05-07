@@ -1,5 +1,5 @@
 {
-  "name": "credit-card-validator",
+  "name": "credit-card-validator-ss",
   "version": "1.0.0",
   "description": "Biblioteca para validação de cartões de crédito",
   "main": "./lib/index.js",

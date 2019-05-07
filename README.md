@@ -1,11 +1,11 @@
 # Biblioteca de validação de cartões de crédito
 
-**O objetivo dessa biblioteca é validas cartões de crédito usando o Algoritmo de Luhn.**
+**O objetivo dessa biblioteca é validar cartões de crédito usando o Algoritmo de Luhn.**
 
 
 ## Para instalar a biblioteca siga os seguintes passos: 
 1.   Instale o node e o npm
-2.   Instale a biblioteca `$npm install + nome da biblioteca`
+2.   Instale a biblioteca `$npm install credit-card-validator-ss`
 
 
 ## O método utilizado na biblioteca é:
@@ -16,7 +16,7 @@ Exemplo de uso:
 
 ```
 $node
-> let validate = require('nome da biblioteca')
+> let validate = require('credit-card-validator-ss')
 > validate.cardValidator(int); // if result != 100 return false
 > validate.cardValidator(int); // if result == 100 return true
 ```
