@@ -13,75 +13,24 @@ module.exports = {
         'ecmaVersion': 2018
     },
     'rules': {
-        'indent': [
-            'error',
-            'tab'
-        ],
-        'linebreak-style': [
-            'error',
-            'unix'
-        ],
-        'quotes': [
-            'error',
-            'single'
-        ],
-        'semi': [
-            'error',
-            'always'
-        ],
-        'space-infix-ops': [
-            'error',
-            {"int32Hint": false}
-        ],
-        "spaced-comment": [
-            "error",
-            "always",
-            { "markers": ["/"] }
-        ],
-        'key-spacing': [
-            "singleLine",
-            "multiLine"
-        ],
-        'space-in-parens': [
-            'error',
-            'never',
-        ],
-        'space-before-function-paren': [
-            'error',
-            'always'
-        ],
-        'func-call-spacing': [
-            'error',
-            'never'
-        ],
-        'no-multiple-empty-lines': [
-            'error',
-            {
-                'max': 2,
-                'maxEOF': 1,
-                'maxBOF': 0,
-            }
-        ],
-        'padded-blocks': [
-            'error',
-            'never'
-        ],
-        'quotes': [
-            'error',
-            'single'
-        ],
-        'eqeqeq': [
-            'error',
-            'always'
-        ],
-        'brace-style': [
-            'error',
-        ],
-        'space-before-blocks': 'always',
-        'camelcase': 2,
-        'id-length': 2,
-        'keyword-spacing': 1,
-        'no-multi-spaces': 'error',
-
+        "semi": ["error", "always"],
+        "camelcase": ["error", { properties: "always" }],
+        "keyword-spacing": ["error", { "before": true }],
+        "space-infix-ops": ["error", { "int32Hint": false }],
+        "comma-spacing": ["error", { before: true, after: true }],
+        "space-before-blocks": ["error", "never"],
+        "spaced-comment": ["error", "always", { "exceptions": ["-", "+"] }],
+        "key-spacing": ["error", { "afterColon": true }],
+        "no-multi-spaces": ["error", { "ignoreEOLComments": true }],
+        "space-in-parens": ["error", "never"],
+        "space-before-function-paren": ["error", "never"],
+        "func-call-spacing": ["error", "never"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "padded-blocks": ["error", "never"],
+        "no-floating-decimal": ["error"],
+        "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+        "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
+        "eqeqeq": ["error", "always", { "null": "ignore" }],
+        "no-array-constructor": ["error"]
     }
 };
