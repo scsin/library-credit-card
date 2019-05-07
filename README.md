@@ -12,18 +12,20 @@
 
 ### cardValidator(int);
 
+O número do cartão de crédito precisa ter no mínimo 12 e no máximo 19 dígitos.
+
 Exemplo de uso:
 
 ```
 $node
 > let validate = require('credit-card-validator-ss')
-> validate.cardValidator(int); // if result != 100 return false
-> validate.cardValidator(int); // if result == 100 return true
+> validate.cardValidator(int); // if result != 0 return false
+> validate.cardValidator(int); // if result == 0 return true
 ```
 
 Retornos:
-* false para resultados diferentes de 100
-* true para resultados iguais a 100
+* false para resultados diferentes de 0
+* true para resultados iguais a 0
 
 
 ## Roadmap
