@@ -2,6 +2,8 @@
 
 **O objetivo dessa biblioteca é validar cartões de crédito usando o Algoritmo de Luhn.**
 
+[PROJETO](https://www.npmjs.com/package/credit-card-validator-ss)
+
 
 ## Para instalar a biblioteca siga os seguintes passos: 
 1.   Instale o node e o npm
